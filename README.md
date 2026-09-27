@@ -49,9 +49,13 @@ Untuk menjalankan sistem, lakukan kompilasi pada seluruh *source code* dan jalan
 
 **2. Output Transaksi dan Polimorfisme (Overloading)**  
 <img width="661" height="190" alt="{18270EE3-DE3A-4635-8CA1-B769E2C4785A}" src="https://github.com/user-attachments/assets/29854944-c223-4177-a4f8-adddb708cad2" />
+<img width="661" height="190" alt="{18270EE3-DE3A-4635-8CA1-B769E2C4785A}" src="https://github.com/user-attachments/assets/9871de6e-0f2c-418b-b0ef-71142c91ef4f" />
 
 *Gambar 2: Dokumentasi operasional pencatatan Barang Masuk (menerapkan overloading untuk melampirkan catatan histori) dan pencatatan Barang Keluar yang berhasil mereduksi jumlah stok awal.*
 
 **3. Output Validasi Ketersediaan Stok (Control Flow: If-Else)**  
-![Transaksi Gagal](ss_transaksi_gagal.png)  
+<img width="729" height="133" alt="{22D2BE74-DBC3-4272-B78C-B8607CB40AC3}" src="https://github.com/user-attachments/assets/ccca66ff-3ac0-47eb-8587-339857138e83" />
+
+<img width="661" height="190" alt="{18270EE3-DE3A-4635-8CA1-B769E2C4785A}" src="https://github.com/user-attachments/assets/3f1561bf-4ce9-4bd8-a926-6d7f4c0ba877" />
+
 *Gambar 3: Pengujian validasi stok pada sistem. Saat sistem menerima permintaan barang keluar yang kuantitasnya melampaui sisa stok riil, struktur kendali (if-else) akan membatalkan prosedur pengurangan stok dan menampilkan peringatan batas kuota kepada pengguna.*
