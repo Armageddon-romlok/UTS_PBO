@@ -43,11 +43,13 @@ Untuk menjalankan sistem, lakukan kompilasi pada seluruh *source code* dan jalan
 
 
 **1. Output Menu Utama dan Polimorfisme (Overriding)**  
-![Tampil Barang](ss_menu1.png)  
+<img width="849" height="172" alt="{D1FA1D49-6E4D-43B0-90A3-84C7BBA2CFD3}" src="https://github.com/user-attachments/assets/275791ed-809f-45e3-9ea7-0e92472df20c" />
+
 *Gambar 1: Antarmuka menu utama dan eksekusi Opsi 1. Terlihat penerapan polymorphism (method overriding) di mana atribut spesifik dari subclass (Garansi pada Elektronik dan Kedaluwarsa pada Makanan) berhasil dicetak dengan format yang berbeda.*
 
 **2. Output Transaksi dan Polimorfisme (Overloading)**  
-![Transaksi Sukses](ss_transaksi_sukses.png)  
+<img width="661" height="190" alt="{18270EE3-DE3A-4635-8CA1-B769E2C4785A}" src="https://github.com/user-attachments/assets/29854944-c223-4177-a4f8-adddb708cad2" />
+
 *Gambar 2: Dokumentasi operasional pencatatan Barang Masuk (menerapkan overloading untuk melampirkan catatan histori) dan pencatatan Barang Keluar yang berhasil mereduksi jumlah stok awal.*
 
 **3. Output Validasi Ketersediaan Stok (Control Flow: If-Else)**  
